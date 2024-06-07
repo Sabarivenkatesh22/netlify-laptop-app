@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 190,
+            "activePatchIndex": 191,
             "patches": [
                 {
                     "date": 1717394148088,
@@ -768,6 +768,10 @@
                 {
                     "date": 1717753630297,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -206,9 +206,9 @@\n \r\n     .laptop-select {\r\n         bottom: 3%;\r\n         right: 30%;\r\n-        width: 40%;\r\n+        width: 20%;\r\n         /* height: auto; */\r\n         /* background: lightblue; */\r\n \r\n     }\r\n"
+                },
+                {
+                    "date": 1717769200224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n * {\r\n     margin: 0px;\r\n     padding: 0px;\r\n     box-sizing: border-box;\r\n+    max-width: 100%;\r\n+    overflow-x: hidden;\r\n }\r\n \r\n body {\r\n     font-family: 'poppins', sans-serif;\r\n@@ -206,9 +208,9 @@\n \r\n     .laptop-select {\r\n         bottom: 3%;\r\n         right: 30%;\r\n-        width: 20%;\r\n+        width: 40%;\r\n         /* height: auto; */\r\n         /* background: lightblue; */\r\n \r\n     }\r\n"
                 }
             ],
             "date": 1717394148088,
