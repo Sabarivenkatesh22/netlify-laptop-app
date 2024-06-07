@@ -1,0 +1,778 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 190,
+            "patches": [
+                {
+                    "date": 1717394148088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1717394173967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,11 @@\n+*{\r\n+    margin:0px;\r\n+    padding: 0px;\r\n+    box-sizing: border-box;\r\n+}\r\n \r\n \r\n \r\n-\r\n body{\r\n     font-family: 'poppins', sans-serif;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717395604283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,12 @@\n     padding: 0px;\r\n     box-sizing: border-box;\r\n }\r\n \r\n-\r\n-\r\n body{\r\n     font-family: 'poppins', sans-serif;\r\n+}\r\n+\r\n+header{\r\n+    display: flex;\r\n+    background:lightblue ;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717395667699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,6 @@\n \r\n header{\r\n     display: flex;\r\n     background:lightblue ;\r\n+    width: 90%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717395797371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,6 @@\n header{\r\n     display: flex;\r\n     background:lightblue ;\r\n     width: 90%;\r\n+    margin: auto;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717489928138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,5 +12,15 @@\n     display: flex;\r\n     background:lightblue ;\r\n     width: 90%;\r\n     margin: auto;\r\n+}\r\n+\r\n+.logo-container{\r\n+    flex: 1;\r\n+}\r\n+nav{\r\n+\r\n+}\r\n+.cart{\r\n+\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717489971037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,18 +9,19 @@\n }\r\n \r\n header{\r\n     display: flex;\r\n-    background:lightblue ;\r\n+   \r\n     width: 90%;\r\n     margin: auto;\r\n }\r\n \r\n .logo-container{\r\n     flex: 1;\r\n+    background:lightblue ;\r\n }\r\n nav{\r\n-\r\n+    background:rgb(28, 184, 14) ;;\r\n }\r\n .cart{\r\n-\r\n+    background:rgb(192, 9, 40) ;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717489986766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,11 @@\n     flex: 1;\r\n     background:lightblue ;\r\n }\r\n nav{\r\n-    background:rgb(28, 184, 14) ;;\r\n+    background:rgb(28, 184, 14) ;\r\n+    flex: 1;\r\n }\r\n .cart{\r\n     background:rgb(192, 9, 40) ;\r\n+    flex: 1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717489997062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,14 +16,14 @@\n }\r\n \r\n .logo-container{\r\n     flex: 1;\r\n-    background:lightblue ;\r\n+   \r\n }\r\n nav{\r\n-    background:rgb(28, 184, 14) ;\r\n+   \r\n     flex: 1;\r\n }\r\n .cart{\r\n-    background:rgb(192, 9, 40) ;\r\n+   \r\n     flex: 1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717490049246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n    \r\n }\r\n nav{\r\n    \r\n-    flex: 1;\r\n+    flex: 2;\r\n }\r\n .cart{\r\n    \r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717490144846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     flex: 1;\r\n    \r\n }\r\n nav{\r\n-   \r\n+   background: red;\r\n     flex: 2;\r\n }\r\n .cart{\r\n    \r\n"
+                },
+                {
+                    "date": 1717490152625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n     flex: 1;\r\n    \r\n }\r\n nav{\r\n-   background: red;\r\n+   \r\n     flex: 2;\r\n }\r\n .cart{\r\n    \r\n"
+                },
+                {
+                    "date": 1717490342616,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,12 @@\n }\r\n \r\n header{\r\n     display: flex;\r\n-   \r\n     width: 90%;\r\n+    height: 10vh;\r\n     margin: auto;\r\n+    align-items: center;\r\n }\r\n \r\n .logo-container{\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717490566112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,15 @@\n     margin: auto;\r\n     align-items: center;\r\n }\r\n \r\n+.logo-container,.nav-links,.cart{\r\n+    display: flex;\r\n+    justify-content: space-around;\r\n+    align-items: center;\r\n+    width: 100%;\r\n+    height: 100%;\r\n+}\r\n .logo-container{\r\n     flex: 1;\r\n    \r\n }\r\n"
+                },
+                {
+                    "date": 1717492208176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n }\r\n \r\n .logo-container,.nav-links,.cart{\r\n     display: flex;\r\n-    justify-content: space-around;\r\n+    justify-content: space-evenly;\r\n     align-items: center;\r\n     width: 100%;\r\n     height: 100%;\r\n }\r\n"
+                },
+                {
+                    "date": 1717492226651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n }\r\n \r\n .logo-container,.nav-links,.cart{\r\n     display: flex;\r\n-    justify-content: space-evenly;\r\n+    /* justify-content: space-evenly; */\r\n     align-items: center;\r\n     width: 100%;\r\n     height: 100%;\r\n }\r\n"
+                },
+                {
+                    "date": 1717592135602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -26,8 +26,11 @@\n .logo-container{\r\n     flex: 1;\r\n    \r\n }\r\n+.logo{\r\n+    font-weight: 400;\r\n+}\r\n nav{\r\n    \r\n     flex: 2;\r\n }\r\n"
+                },
+                {
+                    "date": 1717592669256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,11 @@\n nav{\r\n    \r\n     flex: 2;\r\n }\r\n+.nav-links{\r\n+    justify-content: space-around;\r\n+}\r\n .cart{\r\n    \r\n     flex: 1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717592687766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,6 @@\n     justify-content: space-around;\r\n }\r\n .cart{\r\n    \r\n-    flex: 1;\r\n+    flex: 2;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717592697458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,6 +38,6 @@\n     justify-content: space-around;\r\n }\r\n .cart{\r\n    \r\n-    flex: 2;\r\n+    flex: 1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717592882716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,14 @@\n     flex: 2;\r\n }\r\n .nav-links{\r\n     justify-content: space-around;\r\n+    list-style: none;\r\n+\r\n }\r\n+.nav-link{\r\n+    text-decoration: none;\r\n+}\r\n .cart{\r\n    \r\n     flex: 1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717592927558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,8 +39,10 @@\n     list-style: none;\r\n \r\n }\r\n .nav-link{\r\n+    color: #5f5f79;\r\n+    font-size: 18px;\r\n     text-decoration: none;\r\n }\r\n .cart{\r\n    \r\n"
+                },
+                {
+                    "date": 1717593053771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,7 +44,7 @@\n     font-size: 18px;\r\n     text-decoration: none;\r\n }\r\n .cart{\r\n-   \r\n     flex: 1;\r\n+    justify-content: flex-end;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717593081465,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,8 +28,9 @@\n    \r\n }\r\n .logo{\r\n     font-weight: 400;\r\n+    margin-left: 2px;\r\n }\r\n nav{\r\n    \r\n     flex: 2;\r\n"
+                },
+                {
+                    "date": 1717593090454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n    \r\n }\r\n .logo{\r\n     font-weight: 400;\r\n-    margin-left: 2px;\r\n+    margin-left: 50px;\r\n }\r\n nav{\r\n    \r\n     flex: 2;\r\n"
+                },
+                {
+                    "date": 1717593565703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n .logo-container,.nav-links,.cart{\r\n     display: flex;\r\n     /* justify-content: space-evenly; */\r\n-    align-items: center;\r\n+    /* align-items: center; */\r\n     width: 100%;\r\n     height: 100%;\r\n }\r\n .logo-container{\r\n@@ -28,9 +28,9 @@\n    \r\n }\r\n .logo{\r\n     font-weight: 400;\r\n-    margin-left: 50px;\r\n+    margin-left: 5px;\r\n }\r\n nav{\r\n    \r\n     flex: 2;\r\n"
+                },
+                {
+                    "date": 1717593574321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,14 +18,14 @@\n \r\n .logo-container,.nav-links,.cart{\r\n     display: flex;\r\n     /* justify-content: space-evenly; */\r\n-    /* align-items: center; */\r\n+    align-items: center;\r\n     width: 100%;\r\n     height: 100%;\r\n }\r\n .logo-container{\r\n-    flex: 1;\r\n+    /* flex: 1; */\r\n    \r\n }\r\n .logo{\r\n     font-weight: 400;\r\n"
+                },
+                {
+                    "date": 1717593585278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     font-family: 'poppins', sans-serif;\r\n }\r\n \r\n header{\r\n-    display: flex;\r\n+    /* display: flex; */\r\n     width: 90%;\r\n     height: 10vh;\r\n     margin: auto;\r\n     align-items: center;\r\n@@ -23,9 +23,9 @@\n     width: 100%;\r\n     height: 100%;\r\n }\r\n .logo-container{\r\n-    /* flex: 1; */\r\n+    flex: 1;\r\n    \r\n }\r\n .logo{\r\n     font-weight: 400;\r\n"
+                },
+                {
+                    "date": 1717593590961,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     font-family: 'poppins', sans-serif;\r\n }\r\n \r\n header{\r\n-    /* display: flex; */\r\n+    display: flex;\r\n     width: 90%;\r\n     height: 10vh;\r\n     margin: auto;\r\n     align-items: center;\r\n"
+                },
+                {
+                    "date": 1717594210233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,5 +47,8 @@\n }\r\n .cart{\r\n     flex: 1;\r\n     justify-content: flex-end;\r\n+}\r\n+.presentation{\r\n+    display: flex\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717594382967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,6 +49,10 @@\n     flex: 1;\r\n     justify-content: flex-end;\r\n }\r\n .presentation{\r\n-    display: flex\r\n+    display: flex;\r\n+}\r\n+\r\n+.cover img{\r\n+    height: 60vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717594487975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,11 @@\n     justify-content: flex-end;\r\n }\r\n .presentation{\r\n     display: flex;\r\n+    width: 90%;\r\n+    margin: auto;\r\n+    min-height: auto;\r\n }\r\n \r\n .cover img{\r\n     height: 60vh;\r\n"
+                },
+                {
+                    "date": 1717594496925,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n .presentation{\r\n     display: flex;\r\n     width: 90%;\r\n     margin: auto;\r\n-    min-height: auto;\r\n+    /* min-height: auto; */\r\n }\r\n \r\n .cover img{\r\n     height: 60vh;\r\n"
+                },
+                {
+                    "date": 1717594541818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,8 +50,9 @@\n     justify-content: flex-end;\r\n }\r\n .presentation{\r\n     display: flex;\r\n+    /* important to add a left and right border for the content */\r\n     width: 90%;\r\n     margin: auto;\r\n     /* min-height: auto; */\r\n }\r\n"
+                },
+                {
+                    "date": 1717594584852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     display: flex;\r\n     /* important to add a left and right border for the content */\r\n     width: 90%;\r\n     margin: auto;\r\n-    /* min-height: auto; */\r\n+    min-height: 80vh;\r\n }\r\n \r\n .cover img{\r\n     height: 60vh;\r\n"
+                },
+                {
+                    "date": 1717594619386,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,8 +54,9 @@\n     /* important to add a left and right border for the content */\r\n     width: 90%;\r\n     margin: auto;\r\n     min-height: 80vh;\r\n+    align-items: center;\r\n }\r\n \r\n .cover img{\r\n     height: 60vh;\r\n"
+                },
+                {
+                    "date": 1717594633815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     display: flex;\r\n     /* important to add a left and right border for the content */\r\n     width: 90%;\r\n     margin: auto;\r\n-    min-height: 80vh;\r\n+    min-height: auto;\r\n     align-items: center;\r\n }\r\n \r\n .cover img{\r\n"
+                },
+                {
+                    "date": 1717594679416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     display: flex;\r\n     /* important to add a left and right border for the content */\r\n     width: 90%;\r\n     margin: auto;\r\n-    min-height: auto;\r\n+    height: auto;\r\n     align-items: center;\r\n }\r\n \r\n .cover img{\r\n"
+                },
+                {
+                    "date": 1717594685500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     display: flex;\r\n     /* important to add a left and right border for the content */\r\n     width: 90%;\r\n     margin: auto;\r\n-    height: auto;\r\n+    min-height: auto;\r\n     align-items: center;\r\n }\r\n \r\n .cover img{\r\n"
+                },
+                {
+                    "date": 1717594692837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,9 +53,9 @@\n     display: flex;\r\n     /* important to add a left and right border for the content */\r\n     width: 90%;\r\n     margin: auto;\r\n-    min-height: auto;\r\n+    min-height: 80vh;\r\n     align-items: center;\r\n }\r\n \r\n .cover img{\r\n"
+                },
+                {
+                    "date": 1717594750168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,7 +57,11 @@\n     min-height: 80vh;\r\n     align-items: center;\r\n }\r\n \r\n+.introduction{\r\n+    background: lightblue;\r\n+}\r\n+\r\n .cover img{\r\n     height: 60vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717594801456,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,15 @@\n }\r\n \r\n .introduction{\r\n     background: lightblue;\r\n+    flex:1;\r\n+\r\n }\r\n \r\n+.cover{\r\n+    flex:1;\r\n+}\r\n+\r\n .cover img{\r\n     height: 60vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717594817864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n     align-items: center;\r\n }\r\n \r\n .introduction{\r\n-    background: lightblue;\r\n+    /* background: lightblue; */\r\n     flex:1;\r\n \r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717594824417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n }\r\n \r\n .introduction{\r\n     /* background: lightblue; */\r\n-    flex:1;\r\n+    flex:2;\r\n \r\n }\r\n \r\n .cover{\r\n"
+                },
+                {
+                    "date": 1717595131209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,9 @@\n }\r\n \r\n .introduction{\r\n     /* background: lightblue; */\r\n-    flex:2;\r\n+    flex:1;\r\n \r\n }\r\n \r\n .cover{\r\n"
+                },
+                {
+                    "date": 1717595408142,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,12 @@\n     /* background: lightblue; */\r\n     flex:1;\r\n \r\n }\r\n-\r\n+.intro-text h1{\r\n+font-size: 44px;\r\n+font-weight: 50px;\r\n+}\r\n .cover{\r\n     flex:1;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717595415906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,9 +64,9 @@\n \r\n }\r\n .intro-text h1{\r\n font-size: 44px;\r\n-font-weight: 50px;\r\n+font-weight: 500;\r\n }\r\n .cover{\r\n     flex:1;\r\n }\r\n"
+                },
+                {
+                    "date": 1717595436632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,76 +1,87 @@\n-*{\r\n-    margin:0px;\r\n+* {\r\n+    margin: 0px;\r\n     padding: 0px;\r\n     box-sizing: border-box;\r\n }\r\n \r\n-body{\r\n+body {\r\n     font-family: 'poppins', sans-serif;\r\n }\r\n \r\n-header{\r\n+header {\r\n     display: flex;\r\n     width: 90%;\r\n     height: 10vh;\r\n     margin: auto;\r\n     align-items: center;\r\n }\r\n \r\n-.logo-container,.nav-links,.cart{\r\n+.logo-container,\r\n+.nav-links,\r\n+.cart {\r\n     display: flex;\r\n     /* justify-content: space-evenly; */\r\n     align-items: center;\r\n     width: 100%;\r\n     height: 100%;\r\n }\r\n-.logo-container{\r\n+\r\n+.logo-container {\r\n     flex: 1;\r\n-   \r\n+\r\n }\r\n-.logo{\r\n+\r\n+.logo {\r\n     font-weight: 400;\r\n     margin-left: 5px;\r\n }\r\n-nav{\r\n-   \r\n+\r\n+nav {\r\n+\r\n     flex: 2;\r\n }\r\n-.nav-links{\r\n+\r\n+.nav-links {\r\n     justify-content: space-around;\r\n     list-style: none;\r\n \r\n }\r\n-.nav-link{\r\n+\r\n+.nav-link {\r\n     color: #5f5f79;\r\n     font-size: 18px;\r\n     text-decoration: none;\r\n }\r\n-.cart{\r\n+\r\n+.cart {\r\n     flex: 1;\r\n     justify-content: flex-end;\r\n }\r\n-.presentation{\r\n+\r\n+.presentation {\r\n     display: flex;\r\n     /* important to add a left and right border for the content */\r\n     width: 90%;\r\n     margin: auto;\r\n     min-height: 80vh;\r\n     align-items: center;\r\n }\r\n \r\n-.introduction{\r\n+.introduction {\r\n     /* background: lightblue; */\r\n-    flex:1;\r\n+    flex: 1;\r\n \r\n }\r\n-.intro-text h1{\r\n-font-size: 44px;\r\n-font-weight: 500;\r\n+\r\n+.intro-text h1 {\r\n+    font-size: 44px;\r\n+    font-weight: 500;\r\n }\r\n-.cover{\r\n-    flex:1;\r\n+\r\n+.cover {\r\n+    flex: 1;\r\n }\r\n \r\n-.cover img{\r\n+.cover img {\r\n     height: 60vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717595465047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n }\r\n \r\n .introduction {\r\n     /* background: lightblue; */\r\n-    flex: 1;\r\n+    flex: 1.5;\r\n \r\n }\r\n \r\n .intro-text h1 {\r\n"
+                },
+                {
+                    "date": 1717595574374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,15 +68,16 @@\n }\r\n \r\n .introduction {\r\n     /* background: lightblue; */\r\n-    flex: 1.5;\r\n+    flex: 1.25;\r\n \r\n }\r\n \r\n .intro-text h1 {\r\n     font-size: 44px;\r\n     font-weight: 500;\r\n+    background: linear-gradient(to right, #494964, #6f6f89);\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717595718119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,8 +76,10 @@\n .intro-text h1 {\r\n     font-size: 44px;\r\n     font-weight: 500;\r\n     background: linear-gradient(to right, #494964, #6f6f89);\r\n+    -webkit-background-clip: text;\r\n+    -webkit-text-fill-color: transparent;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717595879231,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,10 +76,10 @@\n .intro-text h1 {\r\n     font-size: 44px;\r\n     font-weight: 500;\r\n     background: linear-gradient(to right, #494964, #6f6f89);\r\n-    -webkit-background-clip: text;\r\n-    -webkit-text-fill-color: transparent;\r\n+    /* -webkit-background-clip: text;\r\n+    -webkit-text-fill-color: transparent; */\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717596259631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,12 +76,18 @@\n .intro-text h1 {\r\n     font-size: 44px;\r\n     font-weight: 500;\r\n     background: linear-gradient(to right, #494964, #6f6f89);\r\n-    /* -webkit-background-clip: text;\r\n-    -webkit-text-fill-color: transparent; */\r\n+    -webkit-background-clip: text;\r\n+    -webkit-text-fill-color: transparent;\r\n }\r\n \r\n+.intro-text p {\r\n+   margin-top: 5px;\r\n+   font-size: 22px;\r\n+   color: #585772;\r\n+}\r\n+\r\n .cover {\r\n     flex: 1;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717596382806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -86,8 +86,12 @@\n    font-size: 22px;\r\n    color: #585772;\r\n }\r\n \r\n+.cta{\r\n+    padding: 50px;\r\n+}\r\n+\r\n .cover {\r\n     flex: 1;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717596402656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,8 +88,9 @@\n }\r\n \r\n .cta{\r\n     padding: 50px;\r\n+    background: lightblue;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717596436665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -87,9 +87,9 @@\n    color: #585772;\r\n }\r\n \r\n .cta{\r\n-    padding: 50px;\r\n+    padding-top: 50px;\r\n     background: lightblue;\r\n }\r\n \r\n .cover {\r\n"
+                },
+                {
+                    "date": 1717596450137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,9 +88,9 @@\n }\r\n \r\n .cta{\r\n     padding-top: 50px;\r\n-    background: lightblue;\r\n+    /* background: lightblue; */\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717596498414,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,8 +91,12 @@\n     padding-top: 50px;\r\n     /* background: lightblue; */\r\n }\r\n \r\n+.cta-select{\r\n+    border: 2px solid #c36cbb;\r\n+}\r\n+\r\n .cover {\r\n     flex: 1;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717596530775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,8 +93,9 @@\n }\r\n \r\n .cta-select{\r\n     border: 2px solid #c36cbb;\r\n+    background: transparent;;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717677511325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,10 @@\n }\r\n \r\n .cta-select{\r\n     border: 2px solid #c36cbb;\r\n-    background: transparent;;\r\n+    background: transparent;\r\n+    width: k;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717677905393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -94,9 +94,11 @@\n \r\n .cta-select{\r\n     border: 2px solid #c36cbb;\r\n     background: transparent;\r\n-    width: k;\r\n+    width: 150px;\r\n+    height: 50px;\r\n+    cursor: pointer;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717677929056,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -97,8 +97,9 @@\n     background: transparent;\r\n     width: 150px;\r\n     height: 50px;\r\n     cursor: pointer;\r\n+    font-family: 'poppins', sans-serif;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717678160876,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,12 @@\n body {\r\n     font-family: 'poppins', sans-serif;\r\n }\r\n \r\n+button{\r\n+    font-family: 'Poppins', sans-serif;\r\n+}\r\n+\r\n header {\r\n     display: flex;\r\n     width: 90%;\r\n     height: 10vh;\r\n"
+                },
+                {
+                    "date": 1717678169828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     font-family: 'poppins', sans-serif;\r\n }\r\n \r\n button{\r\n-    font-family: 'Poppins', sans-serif;\r\n+    /* font-family: 'Poppins', sans-serif; */\r\n }\r\n \r\n header {\r\n     display: flex;\r\n"
+                },
+                {
+                    "date": 1717679356937,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     font-family: 'poppins', sans-serif;\r\n }\r\n \r\n button{\r\n-    /* font-family: 'Poppins', sans-serif; */\r\n+    font-family: 'Poppins', sans-serif;\r\n }\r\n \r\n header {\r\n     display: flex;\r\n@@ -102,8 +102,9 @@\n     width: 150px;\r\n     height: 50px;\r\n     cursor: pointer;\r\n     font-family: 'poppins', sans-serif;\r\n+    font-size: 16px;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717679473553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -105,8 +105,12 @@\n     font-family: 'poppins', sans-serif;\r\n     font-size: 16px;\r\n }\r\n \r\n+.cta-add{\r\n+    background: #c36cbb;\r\n+}\r\n+\r\n .cover {\r\n     flex: 1;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717679497209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,8 +98,9 @@\n \r\n .cta-select{\r\n     border: 2px solid #c36cbb;\r\n     background: transparent;\r\n+    color: #c36cbb;\r\n     width: 150px;\r\n     height: 50px;\r\n     cursor: pointer;\r\n     font-family: 'poppins', sans-serif;\r\n"
+                },
+                {
+                    "date": 1717679517800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,8 +107,9 @@\n     font-size: 16px;\r\n }\r\n \r\n .cta-add{\r\n+    border: 2px solid #c36cbb;;\r\n     background: #c36cbb;\r\n }\r\n \r\n .cover {\r\n"
+                },
+                {
+                    "date": 1717679585377,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,10 +107,13 @@\n     font-size: 16px;\r\n }\r\n \r\n .cta-add{\r\n-    border: 2px solid #c36cbb;;\r\n     background: #c36cbb;\r\n+    width: 150px;\r\n+    height: 50px;\r\n+    cursor: pointer;\r\n+    font-size: 16px;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717679671570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -112,8 +112,9 @@\n     width: 150px;\r\n     height: 50px;\r\n     cursor: pointer;\r\n     font-size: 16px;\r\n+    border: none;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717679702542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -113,8 +113,9 @@\n     height: 50px;\r\n     cursor: pointer;\r\n     font-size: 16px;\r\n     border: none;\r\n+    color: white;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717679731264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n    color: #585772;\r\n }\r\n \r\n .cta{\r\n-    padding-top: 50px;\r\n+    /* padding-top: 50px; */\r\n     /* background: lightblue; */\r\n }\r\n \r\n .cta-select{\r\n"
+                },
+                {
+                    "date": 1717679740088,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n    color: #585772;\r\n }\r\n \r\n .cta{\r\n-    /* padding-top: 50px; */\r\n+    padding-top: 50px;\r\n     /* background: lightblue; */\r\n }\r\n \r\n .cta-select{\r\n"
+                },
+                {
+                    "date": 1717679749730,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n    color: #585772;\r\n }\r\n \r\n .cta{\r\n-    padding-top: 50px;\r\n+    /* padding-top: 50px; */\r\n     /* background: lightblue; */\r\n }\r\n \r\n .cta-select{\r\n"
+                },
+                {
+                    "date": 1717679794681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n    color: #585772;\r\n }\r\n \r\n .cta{\r\n-    /* padding-top: 50px; */\r\n+    padding-top: 50px;\r\n     /* background: lightblue; */\r\n }\r\n \r\n .cta-select{\r\n@@ -114,8 +114,9 @@\n     cursor: pointer;\r\n     font-size: 16px;\r\n     border: none;\r\n     color: white;\r\n+    margin: 30px 0px 0px 0px;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717679827120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n     cursor: pointer;\r\n     font-size: 16px;\r\n     border: none;\r\n     color: white;\r\n-    margin: 30px 0px 0px 0px;\r\n+    margin: 30px 0px 0px 30px;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717679836613,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n     cursor: pointer;\r\n     font-size: 16px;\r\n     border: none;\r\n     color: white;\r\n-    margin: 30px 0px 0px 30px;\r\n+    margin: 0px 0px 0px 30px;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717679860593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n     cursor: pointer;\r\n     font-size: 16px;\r\n     border: none;\r\n     color: white;\r\n-    margin: 0px 0px 0px 30px;\r\n+    margin: 30px 0px 0px 30px;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717679866330,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -114,9 +114,9 @@\n     cursor: pointer;\r\n     font-size: 16px;\r\n     border: none;\r\n     color: white;\r\n-    margin: 30px 0px 0px 30px;\r\n+    margin: 0px 0px 0px 30px;\r\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n"
+                },
+                {
+                    "date": 1717680211604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,5 +123,6 @@\n }\r\n \r\n .cover img {\r\n     height: 60vh;\r\n+    box-shadow: 3px 3px 3px black;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717680618976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,6 +123,6 @@\n }\r\n \r\n .cover img {\r\n     height: 60vh;\r\n-    box-shadow: 3px 3px 3px black;\r\n+    filter: drop-shadow(0px 5px 3px black);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717682284415,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,5 +124,11 @@\n \r\n .cover img {\r\n     height: 60vh;\r\n     filter: drop-shadow(0px 5px 3px black);\r\n+}\r\n+\r\n+.big-circle{\r\n+    position: absolute;\r\n+    top: 0px;\r\n+    right: 0px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717682336303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,5 +130,6 @@\n .big-circle{\r\n     position: absolute;\r\n     top: 0px;\r\n     right: 0px;\r\n+    z-index: -1;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717682376032,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,6 +130,6 @@\n .big-circle{\r\n     position: absolute;\r\n     top: 0px;\r\n     right: 0px;\r\n-    z-index: -1;\r\n+    /* z-index: -1; */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717682441710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,6 +130,7 @@\n .big-circle{\r\n     position: absolute;\r\n     top: 0px;\r\n     right: 0px;\r\n-    /* z-index: -1; */\r\n+    z-index: -1;\r\n+    opacity: 0.7;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717682492860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,5 +132,6 @@\n     top: 0px;\r\n     right: 0px;\r\n     z-index: -1;\r\n     opacity: 0.7;\r\n+    height: 80%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717682502428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -132,6 +132,6 @@\n     top: 0px;\r\n     right: 0px;\r\n     z-index: -1;\r\n     opacity: 0.7;\r\n-    height: 80%;\r\n+    /* height: 80%; */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749728324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,8 +130,8 @@\n .big-circle{\r\n     position: absolute;\r\n     top: 0px;\r\n     right: 0px;\r\n-    z-index: -1;\r\n+    /* z-index: -1; */\r\n     opacity: 0.7;\r\n     /* height: 80%; */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749736410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,11 +127,11 @@\n     filter: drop-shadow(0px 5px 3px black);\r\n }\r\n \r\n .big-circle{\r\n-    position: absolute;\r\n+    /* position: absolute; */\r\n     top: 0px;\r\n     right: 0px;\r\n-    /* z-index: -1; */\r\n+    z-index: -1;\r\n     opacity: 0.7;\r\n     /* height: 80%; */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749795271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,14 +122,14 @@\n     flex: 1;\r\n }\r\n \r\n .cover img {\r\n-    height: 60vh;\r\n+    /* height: 60vh; */\r\n     filter: drop-shadow(0px 5px 3px black);\r\n }\r\n \r\n .big-circle{\r\n-    /* position: absolute; */\r\n+    position: absolute;\r\n     top: 0px;\r\n     right: 0px;\r\n     z-index: -1;\r\n     opacity: 0.7;\r\n"
+                },
+                {
+                    "date": 1717749802011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -122,16 +122,16 @@\n     flex: 1;\r\n }\r\n \r\n .cover img {\r\n-    /* height: 60vh; */\r\n+    height: 60vh;\r\n     filter: drop-shadow(0px 5px 3px black);\r\n }\r\n \r\n .big-circle{\r\n     position: absolute;\r\n     top: 0px;\r\n     right: 0px;\r\n-    z-index: -1;\r\n+    /* z-index: -1; */\r\n     opacity: 0.7;\r\n     /* height: 80%; */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749841615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -130,8 +130,8 @@\n .big-circle{\r\n     position: absolute;\r\n     top: 0px;\r\n     right: 0px;\r\n-    /* z-index: -1; */\r\n+    z-index: -1;\r\n     opacity: 0.7;\r\n-    /* height: 80%; */\r\n+    height: 80%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749936315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,5 +133,13 @@\n     right: 0px;\r\n     z-index: -1;\r\n     opacity: 0.7;\r\n     height: 80%;\r\n+}\r\n+\r\n+.medium-circle{\r\n+    position: absolute;\r\n+    top:30%;\r\n+    right:30%;\r\n+    z-index: -1;\r\n+    height: 60%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749941555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n }\r\n \r\n .medium-circle{\r\n     position: absolute;\r\n-    top:30%;\r\n+    /* top:30%; */\r\n     right:30%;\r\n     z-index: -1;\r\n     height: 60%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749950549,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,8 +138,8 @@\n \r\n .medium-circle{\r\n     position: absolute;\r\n     /* top:30%; */\r\n-    right:30%;\r\n+    /* right:30%; */\r\n     z-index: -1;\r\n     height: 60%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749970089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n }\r\n \r\n .medium-circle{\r\n     position: absolute;\r\n-    /* top:30%; */\r\n-    /* right:30%; */\r\n-    z-index: -1;\r\n+    top:30%;\r\n+    right:30%;\r\n+    /* z-index: -1; */\r\n     height: 60%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749977048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,7 +139,7 @@\n .medium-circle{\r\n     position: absolute;\r\n     top:30%;\r\n     right:30%;\r\n-    /* z-index: -1; */\r\n+    z-index: -1;\r\n     height: 60%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749984764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,7 +139,7 @@\n .medium-circle{\r\n     position: absolute;\r\n     top:30%;\r\n     right:30%;\r\n-    z-index: -1;\r\n+    z-index: 23;\r\n     height: 60%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717749990208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -139,7 +139,7 @@\n .medium-circle{\r\n     position: absolute;\r\n     top:30%;\r\n     right:30%;\r\n-    z-index: 23;\r\n+    z-index: -1;\r\n     height: 60%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750081123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,5 +141,13 @@\n     top:30%;\r\n     right:30%;\r\n     z-index: -1;\r\n     height: 60%;\r\n+}\r\n+\r\n+.small-circle{\r\n+    position: absolute;\r\n+    bottom:0%;\r\n+    left:20%;\r\n+    z-index: -1;\r\n+    height: 60%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750156697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,8 +141,9 @@\n     top:30%;\r\n     right:30%;\r\n     z-index: -1;\r\n     height: 60%;\r\n+    opacity: 0.4;\r\n }\r\n \r\n .small-circle{\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1717750378841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -150,5 +150,11 @@\n     bottom:0%;\r\n     left:20%;\r\n     z-index: -1;\r\n     height: 60%;\r\n+}\r\n+\r\n+.laptop-select{\r\n+    width: 15%;\r\n+    display: flex;\r\n+    justify-content: space-around;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750495934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,7 +154,7 @@\n }\r\n \r\n .laptop-select{\r\n     width: 15%;\r\n-    display: flex;\r\n+    /* display: flex; */\r\n     justify-content: space-around;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750557419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,7 +154,8 @@\n }\r\n \r\n .laptop-select{\r\n     width: 15%;\r\n-    /* display: flex; */\r\n+    display: flex;\r\n     justify-content: space-around;\r\n+    position: absolute;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750571736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,5 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n+    right: 20%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750583285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 20%;\r\n+    right: 15%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750591632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 15%;\r\n+    right: 25%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750605346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 25%;\r\n+    right: 23%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750616162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 23%;\r\n+    right: 22.5%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750626544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 22.5%;\r\n+    right: 23%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750686017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 23%;\r\n+    right: 20%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750694791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 20%;\r\n+    right: 21%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750710049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 21%;\r\n+    right: 22%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750715284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -157,6 +157,6 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 22%;\r\n+    right: 21%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750848162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -124,8 +124,9 @@\n \r\n .cover img {\r\n     height: 60vh;\r\n     filter: drop-shadow(0px 5px 3px black);\r\n+    animation: drop 1.5s ease;\r\n }\r\n \r\n .big-circle{\r\n     position: absolute;\r\n@@ -158,5 +159,17 @@\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n     right: 21%;\r\n+}\r\n+\r\n+@keyframes drop{\r\n+    0%{\r\n+        opactity:0;\r\n+        transform: translateY(-80px);\r\n+    }\r\n+\r\n+    100%{\r\n+        opacity: 1;\r\n+        transform: translateY();\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750858202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -169,7 +169,7 @@\n     }\r\n \r\n     100%{\r\n         opacity: 1;\r\n-        transform: translateY();\r\n+        transform: translateY(0px);\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717750941206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,8 +159,9 @@\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n     right: 21%;\r\n+    height: 10%;\r\n }\r\n \r\n @keyframes drop{\r\n     0%{\r\n"
+                },
+                {
+                    "date": 1717750946604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,8 @@\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n     right: 21%;\r\n-    height: 10%;\r\n }\r\n \r\n @keyframes drop{\r\n     0%{\r\n"
+                },
+                {
+                    "date": 1717750976600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,9 +164,9 @@\n \r\n @keyframes drop{\r\n     0%{\r\n         opactity:0;\r\n-        transform: translateY(-80px);\r\n+        transform: translateY(-100px);\r\n     }\r\n \r\n     100%{\r\n         opacity: 1;\r\n"
+                },
+                {
+                    "date": 1717750986758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,9 +164,9 @@\n \r\n @keyframes drop{\r\n     0%{\r\n         opactity:0;\r\n-        transform: translateY(-100px);\r\n+        transform: translateY(-200px);\r\n     }\r\n \r\n     100%{\r\n         opacity: 1;\r\n"
+                },
+                {
+                    "date": 1717750993430,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,9 +164,9 @@\n \r\n @keyframes drop{\r\n     0%{\r\n         opactity:0;\r\n-        transform: translateY(-200px);\r\n+        transform: translateY(-100px);\r\n     }\r\n \r\n     100%{\r\n         opacity: 1;\r\n"
+                },
+                {
+                    "date": 1717751004137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,9 +164,9 @@\n \r\n @keyframes drop{\r\n     0%{\r\n         opactity:0;\r\n-        transform: translateY(-100px);\r\n+        transform: translateY(-80px);\r\n     }\r\n \r\n     100%{\r\n         opacity: 1;\r\n"
+                },
+                {
+                    "date": 1717751098108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,9 +154,9 @@\n     height: 60%;\r\n }\r\n \r\n .laptop-select{\r\n-    width: 15%;\r\n+    width: 10%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n     right: 21%;\r\n"
+                },
+                {
+                    "date": 1717751105119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,9 +154,9 @@\n     height: 60%;\r\n }\r\n \r\n .laptop-select{\r\n-    width: 10%;\r\n+    width: 9%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n     right: 21%;\r\n"
+                },
+                {
+                    "date": 1717751111113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,9 +154,9 @@\n     height: 60%;\r\n }\r\n \r\n .laptop-select{\r\n-    width: 9%;\r\n+    width: 10%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n     right: 21%;\r\n"
+                },
+                {
+                    "date": 1717751123512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,8 +159,9 @@\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n     right: 21%;\r\n+    height: auto;\r\n }\r\n \r\n @keyframes drop{\r\n     0%{\r\n"
+                },
+                {
+                    "date": 1717751132067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n     width: 10%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 21%;\r\n+    right: 20%;\r\n     height: auto;\r\n }\r\n \r\n @keyframes drop{\r\n"
+                },
+                {
+                    "date": 1717751148163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -154,13 +154,13 @@\n     height: 60%;\r\n }\r\n \r\n .laptop-select{\r\n-    width: 10%;\r\n+    width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 20%;\r\n+    right: 23%;\r\n     height: auto;\r\n }\r\n \r\n @keyframes drop{\r\n"
+                },
+                {
+                    "date": 1717751159116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,10 +158,10 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 23%;\r\n-    height: auto;\r\n+    right: 21%;\r\n+    /* height: auto; */\r\n }\r\n \r\n @keyframes drop{\r\n     0%{\r\n"
+                },
+                {
+                    "date": 1717751183986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,10 +158,10 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 21%;\r\n-    /* height: auto; */\r\n+    right: 20%;\r\n+    height: auto;\r\n }\r\n \r\n @keyframes drop{\r\n     0%{\r\n"
+                },
+                {
+                    "date": 1717751189866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n-    right: 20%;\r\n+    right: 21%;\r\n     height: auto;\r\n }\r\n \r\n @keyframes drop{\r\n"
+                },
+                {
+                    "date": 1717751342466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -172,5 +172,11 @@\n     100%{\r\n         opacity: 1;\r\n         transform: translateY(0px);\r\n     }\r\n+}\r\n+\r\n+@media screen and (max-width:1024px){\r\n+    body{\r\n+        display: none;\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751601099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -175,8 +175,9 @@\n     }\r\n }\r\n \r\n @media screen and (max-width:1024px){\r\n-    body{\r\n-        display: none;\r\n+    .presentation{\r\n+        flex-direction: column;\r\n     }\r\n+    /* .intro-text */\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751637265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -178,6 +178,8 @@\n @media screen and (max-width:1024px){\r\n     .presentation{\r\n         flex-direction: column;\r\n     }\r\n-    /* .intro-text */\r\n+   .introduction{\r\n+    margin-top: 20px;\r\n+   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751656698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -179,7 +179,7 @@\n     .presentation{\r\n         flex-direction: column;\r\n     }\r\n    .introduction{\r\n-    margin-top: 20px;\r\n+    margin-top: 5vh;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751671301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,6 +180,7 @@\n         flex-direction: column;\r\n     }\r\n    .introduction{\r\n     margin-top: 5vh;\r\n+    text-align: center;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751722815,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -182,5 +182,8 @@\n    .introduction{\r\n     margin-top: 5vh;\r\n     text-align: center;\r\n    }\r\n+   .intro-text h1{\r\n+    font-size: 30px;\r\n+   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751776688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -185,5 +185,8 @@\n    }\r\n    .intro-text h1{\r\n     font-size: 30px;\r\n    }\r\n+   .intro-text p{\r\n+    font-size: 18px;\r\n+   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751808919,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,9 @@\n    color: #585772;\r\n }\r\n \r\n .cta{\r\n-    padding-top: 50px;\r\n+    /* padding-top: 50px; */\r\n     /* background: lightblue; */\r\n }\r\n \r\n .cta-select{\r\n"
+                },
+                {
+                    "date": 1717751823902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,8 +92,9 @@\n }\r\n \r\n .cta{\r\n     /* padding-top: 50px; */\r\n+    margin-top: 50px;\r\n     /* background: lightblue; */\r\n }\r\n \r\n .cta-select{\r\n"
+                },
+                {
+                    "date": 1717751831305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,10 +91,10 @@\n    color: #585772;\r\n }\r\n \r\n .cta{\r\n-    /* padding-top: 50px; */\r\n-    margin-top: 50px;\r\n+    padding-top: 50px;\r\n+    /* margin-top: 50px; */\r\n     /* background: lightblue; */\r\n }\r\n \r\n .cta-select{\r\n"
+                },
+                {
+                    "date": 1717751866669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -189,5 +189,8 @@\n    }\r\n    .intro-text p{\r\n     font-size: 18px;\r\n    }\r\n+   .cta{\r\n+    padding-top: 10px;\r\n+   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751893854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,7 +190,7 @@\n    .intro-text p{\r\n     font-size: 18px;\r\n    }\r\n    .cta{\r\n-    padding-top: 10px;\r\n+    padding-top: 15px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717751902027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,7 +190,7 @@\n    .intro-text p{\r\n     font-size: 18px;\r\n    }\r\n    .cta{\r\n-    padding-top: 15px;\r\n+    padding-top: 20px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752243721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,7 +190,7 @@\n    .intro-text p{\r\n     font-size: 18px;\r\n    }\r\n    .cta{\r\n-    padding-top: 20px;\r\n+    padding-top: 50px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752257651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,7 +190,7 @@\n    .intro-text p{\r\n     font-size: 18px;\r\n    }\r\n    .cta{\r\n-    padding-top: 50px;\r\n+    padding-top: 20px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752732480,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,7 +190,7 @@\n    .intro-text p{\r\n     font-size: 18px;\r\n    }\r\n    .cta{\r\n-    padding-top: 20px;\r\n+    /* padding-top: 20px; */\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752739394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,7 +190,7 @@\n    .intro-text p{\r\n     font-size: 18px;\r\n    }\r\n    .cta{\r\n-    /* padding-top: 20px; */\r\n+    padding-top: 20px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752799028,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -192,5 +192,8 @@\n    }\r\n    .cta{\r\n     padding-top: 20px;\r\n    }\r\n+   .laptop-select{\r\n+    align-content: center;\r\n+   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752806808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,7 +193,7 @@\n    .cta{\r\n     padding-top: 20px;\r\n    }\r\n    .laptop-select{\r\n-    align-content: center;\r\n+    align-items: center;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752852989,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,7 +193,9 @@\n    .cta{\r\n     padding-top: 20px;\r\n    }\r\n    .laptop-select{\r\n-    align-items: center;\r\n+    bottom: 5%;\r\n+    right: 50%;\r\n+    \r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752874029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -195,7 +195,7 @@\n    }\r\n    .laptop-select{\r\n     bottom: 5%;\r\n     right: 50%;\r\n-    \r\n+    width: 50%;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717752886247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -190,9 +190,9 @@\n    .intro-text p{\r\n     font-size: 18px;\r\n    }\r\n    .cta{\r\n-    padding-top: 20px;\r\n+    padding-top: 10px;\r\n    }\r\n    .laptop-select{\r\n     bottom: 5%;\r\n     right: 50%;\r\n"
+                },
+                {
+                    "date": 1717752923595,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,8 +120,9 @@\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n+    background: lightblue;\r\n }\r\n \r\n .cover img {\r\n     height: 60vh;\r\n"
+                },
+                {
+                    "date": 1717752959762,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,9 +120,8 @@\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n-    background: lightblue;\r\n }\r\n \r\n .cover img {\r\n     height: 60vh;\r\n@@ -193,8 +192,13 @@\n    }\r\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n+   .cover img {\r\n+    height: 40vh;\r\n+    /* filter: drop-shadow(0px 5px 3px black);\r\n+    animation: drop 1.5s ease; */\r\n+}\r\n    .laptop-select{\r\n     bottom: 5%;\r\n     right: 50%;\r\n     width: 50%;\r\n"
+                },
+                {
+                    "date": 1717752966709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,9 +193,9 @@\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n    .cover img {\r\n-    height: 40vh;\r\n+    height: 50vh;\r\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n"
+                },
+                {
+                    "date": 1717752994058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,9 +193,9 @@\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n    .cover img {\r\n-    height: 50vh;\r\n+    /* height: 50vh; */\r\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n"
+                },
+                {
+                    "date": 1717752999381,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,9 +193,9 @@\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n    .cover img {\r\n-    /* height: 50vh; */\r\n+    height: 50vh;\r\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n"
+                },
+                {
+                    "date": 1717753029150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -200,7 +200,7 @@\n }\r\n    .laptop-select{\r\n     bottom: 5%;\r\n     right: 50%;\r\n-    width: 50%;\r\n+    /* width: 50%; */\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753036614,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,8 +199,8 @@\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 5%;\r\n-    right: 50%;\r\n+    right: 40%;\r\n     /* width: 50%; */\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753042343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -198,9 +198,9 @@\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n-    bottom: 5%;\r\n+    bottom: 4%;\r\n     right: 40%;\r\n     /* width: 50%; */\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753053180,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,8 +199,8 @@\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 4%;\r\n-    right: 40%;\r\n+    right: 45%;\r\n     /* width: 50%; */\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753060915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,8 +199,8 @@\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 4%;\r\n-    right: 45%;\r\n+    right: 43;\r\n     /* width: 50%; */\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753068421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,8 +199,8 @@\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 4%;\r\n-    right: 43;\r\n-    /* width: 50%; */\r\n+    right: 43%;\r\n+    width: 50%;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753076481,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,8 +199,8 @@\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 4%;\r\n-    right: 43%;\r\n+    right: 4%;\r\n     width: 50%;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753083189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,8 +199,8 @@\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 4%;\r\n-    right: 4%;\r\n+    right: 25%;\r\n     width: 50%;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753091455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -200,7 +200,7 @@\n }\r\n    .laptop-select{\r\n     bottom: 4%;\r\n     right: 25%;\r\n-    width: 50%;\r\n+    width: 45%;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753135816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,9 +123,9 @@\n     flex: 1;\r\n }\r\n \r\n .cover img {\r\n-    height: 60vh;\r\n+    min-height: 60vh;\r\n     filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717753141803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -123,9 +123,9 @@\n     flex: 1;\r\n }\r\n \r\n .cover img {\r\n-    min-height: 60vh;\r\n+    height: 60vh;\r\n     filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717753169210,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -199,8 +199,8 @@\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 4%;\r\n-    right: 25%;\r\n+    right: 30%;\r\n     width: 45%;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753174726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -200,7 +200,7 @@\n }\r\n    .laptop-select{\r\n     bottom: 4%;\r\n     right: 30%;\r\n-    width: 45%;\r\n+    width: 40%;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753185186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -198,9 +198,9 @@\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n-    bottom: 4%;\r\n+    bottom: 3%;\r\n     right: 30%;\r\n     width: 40%;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753196128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,9 +193,9 @@\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n    .cover img {\r\n-    height: 50vh;\r\n+    height: 40vh;\r\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n"
+                },
+                {
+                    "date": 1717753207724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -193,14 +193,15 @@\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n    .cover img {\r\n-    height: 40vh;\r\n+    height: 50vh;\r\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 3%;\r\n     right: 30%;\r\n     width: 40%;\r\n+    height: auto;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753216035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,6 +202,7 @@\n     bottom: 3%;\r\n     right: 30%;\r\n     width: 40%;\r\n     height: auto;\r\n+    background: lightblue;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753226610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,6 +203,7 @@\n     right: 30%;\r\n     width: 40%;\r\n     height: auto;\r\n     background: lightblue;\r\n+    padding: 10px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753235185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,7 +203,7 @@\n     right: 30%;\r\n     width: 40%;\r\n     height: auto;\r\n     background: lightblue;\r\n-    padding: 10px;\r\n+    padding: 1px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753245039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,8 +202,7 @@\n     bottom: 3%;\r\n     right: 30%;\r\n     width: 40%;\r\n     height: auto;\r\n-    background: lightblue;\r\n-    padding: 1px;\r\n+\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753295671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,12 +120,13 @@\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n+    height: 60vh;\r\n }\r\n \r\n .cover img {\r\n-    height: 60vh;\r\n+    height: 100%;\r\n     filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1717753316193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,9 +194,9 @@\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n    .cover img {\r\n-    height: 50vh;\r\n+    height: 80%;\r\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n"
+                },
+                {
+                    "date": 1717753351821,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -194,9 +194,9 @@\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n    .cover img {\r\n-    height: 80%;\r\n+    height: 10%;\r\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n"
+                },
+                {
+                    "date": 1717753381816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -120,13 +120,12 @@\n }\r\n \r\n .cover {\r\n     flex: 1;\r\n-    height: 60vh;\r\n }\r\n \r\n .cover img {\r\n-    height: 100%;\r\n+    height: 60vh;\r\n     filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease;\r\n }\r\n \r\n@@ -194,16 +193,16 @@\n    .cta{\r\n     padding-top: 10px;\r\n    }\r\n    .cover img {\r\n-    height: 10%;\r\n+    height: 50vh;\r\n     /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n }\r\n    .laptop-select{\r\n     bottom: 3%;\r\n     right: 30%;\r\n     width: 40%;\r\n     height: auto;\r\n-\r\n+    background: lightblue;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753397282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,7 +202,7 @@\n     bottom: 3%;\r\n     right: 30%;\r\n     width: 40%;\r\n     height: auto;\r\n-    background: lightblue;\r\n+    /* background: lightblue; */\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753410773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -203,6 +203,7 @@\n     right: 30%;\r\n     width: 40%;\r\n     height: auto;\r\n     /* background: lightblue; */\r\n+    justify-content: space-around;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753460438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -180,9 +180,9 @@\n     .presentation{\r\n         flex-direction: column;\r\n     }\r\n    .introduction{\r\n-    margin-top: 5vh;\r\n+    margin-top: 3vh;\r\n     text-align: center;\r\n    }\r\n    .intro-text h1{\r\n     font-size: 30px;\r\n@@ -203,7 +203,7 @@\n     right: 30%;\r\n     width: 40%;\r\n     height: auto;\r\n     /* background: lightblue; */\r\n-    justify-content: space-around;\r\n+\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753513960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n body {\r\n     font-family: 'poppins', sans-serif;\r\n }\r\n \r\n-button{\r\n+button {\r\n     font-family: 'Poppins', sans-serif;\r\n }\r\n \r\n header {\r\n@@ -85,20 +85,20 @@\n     -webkit-text-fill-color: transparent;\r\n }\r\n \r\n .intro-text p {\r\n-   margin-top: 5px;\r\n-   font-size: 22px;\r\n-   color: #585772;\r\n+    margin-top: 5px;\r\n+    font-size: 22px;\r\n+    color: #585772;\r\n }\r\n \r\n-.cta{\r\n+.cta {\r\n     padding-top: 50px;\r\n     /* margin-top: 50px; */\r\n     /* background: lightblue; */\r\n }\r\n \r\n-.cta-select{\r\n+.cta-select {\r\n     border: 2px solid #c36cbb;\r\n     background: transparent;\r\n     color: #c36cbb;\r\n     width: 150px;\r\n@@ -107,9 +107,9 @@\n     font-family: 'poppins', sans-serif;\r\n     font-size: 16px;\r\n }\r\n \r\n-.cta-add{\r\n+.cta-add {\r\n     background: #c36cbb;\r\n     width: 150px;\r\n     height: 50px;\r\n     cursor: pointer;\r\n@@ -128,82 +128,91 @@\n     filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease;\r\n }\r\n \r\n-.big-circle{\r\n+.big-circle {\r\n     position: absolute;\r\n     top: 0px;\r\n     right: 0px;\r\n     z-index: -1;\r\n     opacity: 0.7;\r\n     height: 80%;\r\n }\r\n \r\n-.medium-circle{\r\n+.medium-circle {\r\n     position: absolute;\r\n-    top:30%;\r\n-    right:30%;\r\n+    top: 30%;\r\n+    right: 30%;\r\n     z-index: -1;\r\n     height: 60%;\r\n     opacity: 0.4;\r\n }\r\n \r\n-.small-circle{\r\n+.small-circle {\r\n     position: absolute;\r\n-    bottom:0%;\r\n-    left:20%;\r\n+    bottom: 0%;\r\n+    left: 20%;\r\n     z-index: -1;\r\n     height: 60%;\r\n }\r\n \r\n-.laptop-select{\r\n+.laptop-select {\r\n     width: 15%;\r\n     display: flex;\r\n     justify-content: space-around;\r\n     position: absolute;\r\n     right: 21%;\r\n     height: auto;\r\n }\r\n \r\n-@keyframes drop{\r\n-    0%{\r\n-        opactity:0;\r\n+@keyframes drop {\r\n+    0% {\r\n+        opactity: 0;\r\n         transform: translateY(-80px);\r\n     }\r\n \r\n-    100%{\r\n+    100% {\r\n         opacity: 1;\r\n         transform: translateY(0px);\r\n     }\r\n }\r\n \r\n-@media screen and (max-width:1024px){\r\n-    .presentation{\r\n+@media screen and (max-width:1024px) {\r\n+    .presentation {\r\n         flex-direction: column;\r\n     }\r\n-   .introduction{\r\n-    margin-top: 3vh;\r\n-    text-align: center;\r\n-   }\r\n-   .intro-text h1{\r\n-    font-size: 30px;\r\n-   }\r\n-   .intro-text p{\r\n-    font-size: 18px;\r\n-   }\r\n-   .cta{\r\n-    padding-top: 10px;\r\n-   }\r\n-   .cover img {\r\n-    height: 50vh;\r\n-    /* filter: drop-shadow(0px 5px 3px black);\r\n+\r\n+    .introduction {\r\n+        margin-top: 3vh;\r\n+        text-align: center;\r\n+    }\r\n+\r\n+    .intro-text h1 {\r\n+        font-size: 30px;\r\n+    }\r\n+\r\n+    .intro-text p {\r\n+        font-size: 18px;\r\n+    }\r\n+\r\n+    .cta {\r\n+        padding-top: 10px;\r\n+    }\r\n+\r\n+    .cover img {\r\n+        height: 50vh;\r\n+        /* filter: drop-shadow(0px 5px 3px black);\r\n     animation: drop 1.5s ease; */\r\n-}\r\n-   .laptop-select{\r\n-    bottom: 3%;\r\n-    right: 30%;\r\n-    width: 40%;\r\n-    height: auto;\r\n-    /* background: lightblue; */\r\n+    }\r\n \r\n-   }\r\n+    .laptop-select {\r\n+        bottom: 3%;\r\n+        right: 30%;\r\n+        width: 40%;\r\n+        height: auto;\r\n+        /* background: lightblue; */\r\n+\r\n+    }\r\n+    .small-circle,.medium-circle,.big-circle{\r\n+        opacity: 0.2;\r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1717753586917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n     .laptop-select {\r\n         bottom: 3%;\r\n         right: 30%;\r\n         width: 40%;\r\n-        height: auto;\r\n+        /* height: auto; */\r\n         /* background: lightblue; */\r\n \r\n     }\r\n     .small-circle,.medium-circle,.big-circle{\r\n"
+                },
+                {
+                    "date": 1717753603504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,9 +204,9 @@\n     animation: drop 1.5s ease; */\r\n     }\r\n \r\n     .laptop-select {\r\n-        bottom: 3%;\r\n+        bottom: 0%;\r\n         right: 30%;\r\n         width: 40%;\r\n         /* height: auto; */\r\n         /* background: lightblue; */\r\n"
+                },
+                {
+                    "date": 1717753608693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,9 +204,9 @@\n     animation: drop 1.5s ease; */\r\n     }\r\n \r\n     .laptop-select {\r\n-        bottom: 0%;\r\n+        bottom: 1%;\r\n         right: 30%;\r\n         width: 40%;\r\n         /* height: auto; */\r\n         /* background: lightblue; */\r\n"
+                },
+                {
+                    "date": 1717753619355,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,9 +204,9 @@\n     animation: drop 1.5s ease; */\r\n     }\r\n \r\n     .laptop-select {\r\n-        bottom: 1%;\r\n+        bottom: 3%;\r\n         right: 30%;\r\n         width: 40%;\r\n         /* height: auto; */\r\n         /* background: lightblue; */\r\n"
+                },
+                {
+                    "date": 1717753630297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -206,9 +206,9 @@\n \r\n     .laptop-select {\r\n         bottom: 3%;\r\n         right: 30%;\r\n-        width: 40%;\r\n+        width: 20%;\r\n         /* height: auto; */\r\n         /* background: lightblue; */\r\n \r\n     }\r\n"
+                }
+            ],
+            "date": 1717394148088,
+            "name": "Commit-0",
+            "content": "\r\n\r\n\r\n\r\nbody{\r\n    font-family: 'poppins', sans-serif;\r\n}"
+        }
+    ]
+}
